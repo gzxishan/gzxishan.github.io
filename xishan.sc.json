@@ -1,0 +1,49 @@
+{
+
+	"properties": {
+		"contextName":"/gzxishan.github.io"
+	},
+	"data": {
+		"confUrl": "",
+		"hasGlobal":false,
+		"main": "main",
+		"onChooseRequireConf":function(){
+			return "demo";
+		},
+		"replaceTitle": false,
+		"selfData":{
+			"quickStartSourceMain":"${contextName}/sources/quick-start/src/main",
+			"quickStartSourceModules":"${contextName}/sources/quick-start/src/main/java/cn/xishan/demo/op/quick_start/modules"
+		},
+		"requireConf": {
+			"baseUrl":"${contextName}/",
+			"stringReplace": [
+				
+			]
+		},
+		"moreRequireConfs":{
+			"demo":{
+				"requireConf":{
+				    "urlArgs":"v=171016",
+					"xsPaths":{
+						"all":"aspect/all",
+						"page":"aspect/page"
+					},
+					"paths":{
+						"mustache":"static/lib/mustache/2.3.0/mustache.min",
+						"$": "static/lib/jquery/jquery-1.8.3.min",
+						"highlight":"static/lib/highlight/highlight.pack"
+					},
+					"xsShim":{
+						"highlight":["css!static/lib/highlight/styles/default.css"],
+						"all":["$","highlight","mustache","css!static/base/css/5grid/core.css","css!static/base/css/5grid/core-desktop.css",
+							"css!static/base/css/5grid/core-1200px.css","css!static/base/css/5grid/core-noscript.css",
+							"css!static/base/css/style.css","css!static/base/css/style-desktop.css","css!static/base/css/style-1200px.css"],
+						"*":["all"]
+						}
+					}
+			}
+		}
+
+	}
+}
