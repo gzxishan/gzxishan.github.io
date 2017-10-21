@@ -1,0 +1,43 @@
+{
+	"title": "溪山科技开源技术文档首页",
+	"_back": "",
+	"side-title": "溪山科技",
+	"sides": [
+		{
+			"label": "OftenPorter框架",
+			"class": "",
+			"href": "#op-description"
+		}, {
+			"label": "JS加载框架",
+			"class": "",
+			"href": "#js-loader"
+		}
+	],
+
+	"articles": [
+		{
+			"anchor": "op-description",
+			"title": "OftenPorter框架简介",
+			"description": "轻量级的Web API框架，支持servlet、内部调用等模式。",
+			//			"img": {
+			//				"src": "js/imgs/fotogrph-dark-stairwell.jpg",
+			//				"class": "",
+			//				"href": "#"
+			//			},
+			"html": "",
+			"detail":"../modules/1.0.x/op/index.html",
+			"content": ""
+		}, {
+			"anchor": "js-loader",
+			"title": "JS加载框架简介",
+			"description": "开发中...",
+			//			"img": {
+			//				"src": "js/imgs/fotogrph-dark-stairwell.jpg",
+			//				"class": "",
+			//				"href": "#"
+			//			},
+			"detail":"",
+			"content": ""
+		}
+	]
+}

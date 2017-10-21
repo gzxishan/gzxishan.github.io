@@ -1,0 +1,72 @@
+<h3>
+	1.新建maven工程
+</h3>
+<p>
+	<h4>1/3 新建项目</h4>
+	<img src="$url(imgs/quick-start-new-maven-project.jpg)">
+	<img src="$url(imgs/quick-start-new-maven-project2.jpg)">
+	<img src="$url(imgs/quick-start-new-maven-project3.jpg)">
+
+	<h4>2/3 新建完成后目录结构</h4>
+	<p>由于在main中没有java目录(当然你还可以选择合适maven骨架来新建项目)，手动新建java目录，并在项目结构设置界面中设置java目录为源程序目录.</p>
+	<img src="$url(imgs/quick-start-new-maven-project4.jpg)"> 新建java目录:
+	<img src="$url(imgs/quick-start-new-maven-project5.jpg)">
+	<p>进入项目结构设置界面的方式：</p>
+	<img src="$url(imgs/quick-start-new-maven-project6.jpg)"> 或
+	<img src="$url(imgs/quick-start-new-maven-project7.jpg)">
+	<p>按图所示轨迹进行设置,按OK确认:</p>
+	<img src="$url(imgs/quick-start-new-maven-project8.jpg)">
+
+	<h4>3/3 最终目录结构</h4>
+	<img src="$url(imgs/quick-start-dir-structure.JPG)">
+	<ul>
+		<li>common:用于放一些公共的类，util等</li>
+		<li>db:用于存放数据库相关的类</li>
+		<li>modules:用于存放各个模块</li>
+		<li>startup:用于存放框架相关的一些核心类</li>
+	</ul>
+
+</p>
+
+<h3>
+	2.配置pom.xml
+</h3>
+<p>
+	<h4>配置好的pom.xml文件如下</h4>
+	<pre style="height: 300px;"><code class="xml" _url_="code:./code/03-pom.xml.txt"></code></pre>
+</p>
+
+<h3>
+	3.新建入口servlet
+</h3>
+<p>
+	<h4>1/2 在目录startup中，新建空的MainServlet</h4>
+	<pre><code class="java" _url_="code:./code/MainServlet-1.java"></code></pre>
+
+	<h4>2/3 完成后的MainServlet</h4>
+	<pre><code class="java" _url_="code:$xs(selfData.quickStartSourceModules)/../startup/MainServlet.java"></code></pre>
+
+	<h4>3/3 为了便于后面查看运行结果，新建log4j的配置文件log4j.properties,放在resources目录下</h4>
+	<pre><code  _url_="code:$xs(selfData.quickStartSourceMain)/resources/log4j.properties"></code></pre>
+
+</p>
+
+<h3>
+	4.新建porter
+</h3>
+<p>
+	<h4>1/3 新建HelloPorter</h4>
+	<img src="$url(imgs/quick-start-new-porter.JPG)">
+	
+	<h4>2/3 HelloPorter内容</h4>
+	<pre><code  _url_="code:$xs(selfData.quickStartSourceModules)/helloworld/porter/HelloPorter.java"></code></pre>
+	
+	<h4>3/3 运行并访问</h4>
+	<p>运行：</p>
+	<img src="$url(imgs/quick-start-run.jpg)">
+	<img src="$url(imgs/quick-start-run2.jpg)">
+	<p>访问:<a target="_blank" href="http://localhost:8080/quick-start/op-porter/1.0/Hello/say">http://localhost:8080/quick-start/op-porter/1.0/Hello/say</a></p>
+	<img src="$url(imgs/quick-start-run3.jpg)">
+	<p>访问:<a target="_blank" href="http://localhost:8080/quick-start/op-porter/1.0/Hello/saySth?words=Hello%20World">http://localhost:8080/quick-start/op-porter/1.0/Hello/saySth?words=Hello%20World</a></p>
+	<img src="$url(imgs/quick-start-run4.jpg)">
+</p>

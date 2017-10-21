@@ -1,0 +1,75 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>cn.xishan.demo.op</groupId>
+    <artifactId>quick-start</artifactId>
+    <packaging>war</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <name>quick-start Maven Webapp</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <project.OftenPorter.version>1.0.4</project.OftenPorter.version>
+    </properties>
+
+    <dependencies>
+
+        <!--op框架servlet方式-->
+        <dependency>
+            <groupId>cn.xishan.oftenporter</groupId>
+            <artifactId>Porter-Bridge-Servlet</artifactId>
+            <version>${project.OftenPorter.version}</version>
+        </dependency>
+
+        <!--op框架核心库-->
+        <dependency>
+            <groupId>cn.xishan.oftenporter</groupId>
+            <artifactId>Porter-Core</artifactId>
+            <version>${project.OftenPorter.version}</version>
+        </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+        <!--servlet引用，注意scope为provided-->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>3.1.0</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!--用于日志打印-->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.7.21</version>
+        </dependency>
+
+        <!--用于单元测试-->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    <build>
+        <finalName>quick-start</finalName>
+        <plugins>
+
+            <!--通过tomcat插件运行项目-->
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <version>2.2</version>
+                <configuration>
+                    <port>8080</port>
+                    <path>/${project.artifactId}</path>
+                    <uriEncoding>utf-8</uriEncoding>
+                    <contextReloadable>true</contextReloadable>
+                    <!--<contextFile>src/main/webapp/META-INF/context.xml</contextFile>-->
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
