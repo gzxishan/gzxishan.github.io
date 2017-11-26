@@ -1,0 +1,41 @@
+{
+	"title": "",
+	"side-title": "中级",
+	"sides": [
+		{
+			"label": "DBSource",
+			"href": "#",
+			"preparingMsg": "整理中..."
+		}, {
+			"label": "MysqlSource",
+			"href": "#",
+			"preparingMsg": "整理中..."
+		}, {
+			"label": "DBCommon",
+			"href": "#",
+			"preparingMsg": "整理中..."
+		}, {
+			"label": "TransactionHandle",
+			"href": "#",
+			"preparingMsg": "整理中..."
+		}, {
+			"label": "JDao",
+			"href": "#",
+			"preparingMsg": "整理中..."
+		}, {
+			"label": "BlobData",
+			"href": "#",
+			"preparingMsg": "整理中..."
+		}, {
+			"label": "JS",
+			"href": "#",
+			"preparingMsg": "整理中..."
+		}, {
+			"label": "Federated",
+			"href": "#",
+			"preparingMsg": "整理中..."
+		}
+	],
+
+	"articles": []
+}
