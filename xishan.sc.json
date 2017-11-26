@@ -1,7 +1,7 @@
 {
 
 	"properties": {
-		"contextName":""//"/gzxishan.github.io"
+		"contextName":""//"/gzxishan.github.io"//
 	},
 	"data": {
 		"confUrl": "",
@@ -12,8 +12,12 @@
 		},
 		"replaceTitle": false,
 		"selfData":{
+			"sourcesGithubRoot":"https://github.com/gzxishan/gzxishan.github.io/blob/master/sources",
 			"quickStartSourceMain":"${contextName}/sources/quick-start/src/main",
-			"quickStartSourceModules":"${contextName}/sources/quick-start/src/main/java/cn/xishan/demo/op/quick_start/modules"
+			"quickStartSourceModules":"${contextName}/sources/quick-start/src/main/java/cn/xishan/demo/op/quick_start/modules",
+			"packages":{
+				"PortIn":"cn.xishan.oftenporter.porter.core.annotation"
+			}
 		},
 		"requireConf": {
 			"baseUrl":"${contextName}/",

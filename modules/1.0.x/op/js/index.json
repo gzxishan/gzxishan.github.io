@@ -22,8 +22,7 @@
 			"href": "level-advanced.html"
 		}, {
 			"label": "数据库OftenDB",
-			"href": "../op-db/index.html",
-			"preparingMsg":"整理中..."
+			"href": "../op-db/index.html"
 		}
 	],
 
