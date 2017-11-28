@@ -34,6 +34,10 @@
 			"label": "Federated",
 			"href": "#",
 			"preparingMsg": "整理中..."
+		}, {
+			"label": "MyBatis",
+			"href": "#",
+			"preparingMsg": "整理中..."
 		}
 	],
 

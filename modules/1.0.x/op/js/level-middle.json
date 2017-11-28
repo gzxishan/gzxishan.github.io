@@ -40,6 +40,10 @@
 		}, {
 			"label": "AutoSetSeek",
 			"preparingMsg":"整理中..."
+		}, {
+			"label": "@Jsp",
+			"href": "#",
+			"preparingMsg":"整理中..."
 		}
 	],
 
