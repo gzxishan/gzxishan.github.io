@@ -25,7 +25,7 @@
 			"href": "#",
 			"preparingMsg": "整理中..."
 		}, {
-			"label": "绑定对象PortInObjBind",
+			"label": "混入传递AutoSetThatForMixin",
 			"href": "#",
 			"preparingMsg": "整理中..."
 		}, {
