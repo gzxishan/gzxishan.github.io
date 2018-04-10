@@ -12,17 +12,21 @@
 			"label": "快速教程",
 			"href": "#op-quick-start"
 		}, {
-			"label": "基础",
+			"label": "基础文档",
 			"href": "level-often.html"
 		}, {
-			"label": "中级",
+			"label": "中级文档",
 			"href": "level-middle.html"
 		}, {
-			"label": "高级",
+			"label": "高级文档",
 			"href": "level-advanced.html"
 		}, {
 			"label": "数据库OftenDB",
 			"href": "../op-db/index.html"
+		}, {
+			"label": "DEMO",
+			"href": "",
+			"preparingMsg": "整理中..."
 		}
 	],
 
@@ -35,7 +39,7 @@
 		}, {
 			"anchor": "install",
 			"title": "安装",
-			"description": "Java8+,IntelliJ IDEA 社区版",
+			"description": "开发环境：JDK8+,IntelliJ IDEA 社区版",
 			"url": "./pages/02-install.html"
 		}, {
 			"anchor": "op-quick-start",

@@ -234,6 +234,11 @@ define({
 										var href = $(this).attr("href");
 										saveLastPage(href);
 									});
+									$("a[href][data-preparing]").each(function() {
+										if($(this).attr("data-preparing")) {
+											$(this).css("color", "gray");
+										}
+									});
 								});
 								$(document.body).css("visibility", "visible");
 								$("#nav").find("a").click(function() {
